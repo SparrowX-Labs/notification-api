@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: notification-api
+  description: notification-api backend API
+  annotations:
+    backstage.io/kubernetes-id: notification-api
+    github.com/project-slug: SparrowX-Labs/notification-api
+  tags:
+    - notification-api
+    - application
+    - backend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:platform-team
